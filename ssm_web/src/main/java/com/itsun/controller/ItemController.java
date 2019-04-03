@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ItemController {
     @Autowired
     private ItemService itemService;
-
+//造成冲突
     @RequestMapping("/findDetail")
     public String findAll(Model model){
         Items items = itemService.findById(1);
