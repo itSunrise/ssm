@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ItemController {
     @Autowired
     private ItemService itemService;
+//    添加注释
 
     @RequestMapping("/findDetail")
     public String findAll(Model model){
